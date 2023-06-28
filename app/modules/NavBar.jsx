@@ -25,9 +25,9 @@ const NavBar = () => {
           />
         </a>
         <div className="nav_left lg:flex hidden flex-row justify-end items-center gap-12 w-1/3">
-            <a href="#"><FiSearch /></a>
-            <a href="/login"><FiUser /></a>
-            <a href="/carrito"><AiOutlineShoppingCart /></a>
+            <a href="#"><FiSearch size={20} /></a>
+            <a href="/login"><FiUser size={20} /></a>
+            <a href="/carrito"><AiOutlineShoppingCart size={20} /></a>
         </div>
         <AiOutlineMenu size={32} className='lg:hidden block' onClick={() => setMenu(!menu)} />
         <div className={menu ? "menuresp absolute top-0 right-0 flex flex-col justify-center items-center h-[100svh] bg-[#F1F0EB] z-50 w-2/3 gap-6" : 'hidden'}>
@@ -35,9 +35,11 @@ const NavBar = () => {
           <a href="/colecciones">Colecciones</a>
           <a href="/colecciones">Lo Nuevo</a>
           <a href="/colecciones">Marcas</a>
-          <a href="#"><FiSearch /></a>
-          <a href="/login"><FiUser /></a>
-          <a href="/carrito"><AiOutlineShoppingCart /></a>
+          <div className="flex flex-row justify-center items-center gap-4">
+            <a href="#"><FiSearch size={20} /></a>
+            <a href="/login"><FiUser size={20} /></a>
+            <a href="/carrito"><AiOutlineShoppingCart size={20} /></a>
+          </div>
         </div>
         <div className={menu ? "w-screen h-screen fixed top-0 left-0 z-40 bg-black opacity-50" : "hidden"}></div>
     </nav>

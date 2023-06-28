@@ -25,10 +25,10 @@ const Footer = () => {
             </div>
         </div>
         <Marquee gradient={false} speed={70} className='overflow-hidden'>
-            <p className='text-dark font-nevada text-3xl md:text-6xl'> ÚNETE A NUESTRO NEWSLETTER Y ENTERATE DE LAS NOVEDADES - </p>
-            <p className='text-dark font-nevada text-3xl md:text-6xl'> ÚNETE A NUESTRO NEWSLETTER Y ENTERATE DE LAS NOVEDADES - </p>
-            <p className='text-dark font-nevada text-3xl md:text-6xl'> ÚNETE A NUESTRO NEWSLETTER Y ENTERATE DE LAS NOVEDADES - </p>
-            <p className='text-dark font-nevada text-3xl md:text-6xl'> ÚNETE A NUESTRO NEWSLETTER Y ENTERATE DE LAS NOVEDADES - </p>
+            <p className='text-dark font-nevada text-3xl md:text-6xl'> UNETE A NUESTRO NEWSLETTER Y ENTERATE DE LAS NOVEDADES - </p>
+            <p className='text-dark font-nevada text-3xl md:text-6xl'> UNETE A NUESTRO NEWSLETTER Y ENTERATE DE LAS NOVEDADES - </p>
+            <p className='text-dark font-nevada text-3xl md:text-6xl'> UNETE A NUESTRO NEWSLETTER Y ENTERATE DE LAS NOVEDADES - </p>
+            <p className='text-dark font-nevada text-3xl md:text-6xl'> UNETE A NUESTRO NEWSLETTER Y ENTERATE DE LAS NOVEDADES - </p>
         </Marquee>
         <div className="sag_newsletter w-full flex flex-col md:flex-row justify-center items-center pt-10 pb-20 gap-2">
             <input type="email" placeholder='Registrate para recibir informacion de Saguaro' className='text-center rounded-none font-soleil text-sm bg-transparent border-b-[1px] border-b-dark border-solid w-5/6 md:w-3/6 outline-none py-3' />
