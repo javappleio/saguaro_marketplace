@@ -2,26 +2,89 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: "Nevada";
+  src: url("../public/fonts/Nevada-Light.woff");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: "Minion";
+  src: url("../public/fonts/Minion-Italic.woff");
+}
+
+@font-face {
+  font-family: "Soleil";
+  src: url("../public/fonts/SoleilBook.woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Soleil";
+  src: url("../public/fonts/SoleilLight.woff");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Soleil";
+  src: url("../public/fonts/SoleilRegular.woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Soleil";
+  src: url("../public/fonts/SoleilBold.woff");
+  font-weight: 600;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #F1F0EB;
 }
+
+main {
+  padding-top: 110px;
+}
+
+.sag_hero_img {
+  background-image: url('./assets/hero.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+}
+
+.sag_marcas_img {
+  background-image: url('./assets/marcas_bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+}
+
+.nosotros_left {
+  background-image: url('./assets/nosotros_left.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.nosotros_right {
+  background-image: url('./assets/nosotros_right.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
